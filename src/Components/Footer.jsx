@@ -3,15 +3,15 @@ import React from "react";
 export const Footer = () => {
     const style = {
         position: "relative",
-        top: "40vh"
+        top: "70vh"
     }
 
   return(
     <div className="container-fluid bg-dark text-muted text-center p-3"
     style={style}>
-        <h6>&copy; All right reserved. 
+        <h6 className="my-3">&copy; All right reserved. 2023<br/>
             Chinmay Samarth D.H. 
-            2023
+            
         </h6>
     </div>
   )
